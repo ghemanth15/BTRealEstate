@@ -1,7 +1,15 @@
 # BTRealEstate
 This is a simple real estate website that would have several realtors and each realtor is assigned a few listings. This project is developed using Django-(python based webframework) and i have used pgsql as the backend database querying language. Also, the project uses jinja template.
-For downloading django ==> pip install django
-Creating virtual environment is not mandatory, but if you prefer a virtual environment , setup ==> python -m venv venv
+
+###For downloading django
+'''sh
+pip install django
+'''
+Creating virtual environment is not mandatory, but if you prefer a virtual environment , 
+###Virtual Environment setup 
+'''sh
+python -m venv venv
+'''
 I've also downloaded pgAdmin v4 for viewing te database.
 The project can be run by using the following command ==> python manage.py runserver
 For any changes in static files ==> python manage.py collectstatic
